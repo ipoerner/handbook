@@ -1,7 +1,7 @@
 The CryptoParty Handbook
 ========================
 
-https://cryptoparty.org/wiki/CryptoPartyHandbook
+https://www.cryptoparty.in/documentation/handbook
 
 **Please fork this repo. Add and edit content. Send back pull requests.**
 
@@ -9,7 +9,7 @@ Comments and questions about handbook content are more than welcome, please subm
 
 Prerequisites
 -------------
-For building the handbook artifacts (PDF, LaTeX, etc...) the following prerequisites are required:
+For building the handbook artifacts (PDF, LaTeX, EPUB etc...) the following prerequisites are required:
  - GNU make
  - pandoc
  - pdflatex
@@ -17,6 +17,36 @@ For building the handbook artifacts (PDF, LaTeX, etc...) the following prerequis
 On Ubuntu all prerequisites can be installed with the following line:
 
     sudo apt-get install build-essential pandoc texlive-full
+
+On Arch Linux, try:
+
+    sudo pacman -S ghc alex happy cabal-install texlive-core texlive-science texlive-latexextra
+    sudo cabal update
+    sudo cabal install --global pandoc
+
+
+Compiling The Handbook
+----------------------
+In order to build the handbook artifacts (PDF, LaTeX, EPUB) execute the following from the src/ folder:
+
+    make clean
+    make install
+    
+Getting the Handbook on a Kindle
+--------------------------------
+
+1. Import the EPUB file into your Calibre Library.
+2. Use Calibre's converter to convert EPUB to MOBI
+3. Attach your kindle by USB cable, send the MOBI wirelessly to the Kindle.
+2. [optional] If you want the coverart then a bit more advanced hacking in Calibre is required 
+3. [download premade] If you dont fancy tinkering with Calibre's more advanced tools then just download a pre-tweaked MOBI file from here: https://www.cryptoparty.in/documentation/handbook#cryptopartyhandbook_for_kindle
+
+Build
+-----
+
+[![Build Status](https://secure.travis-ci.org/cryptoparty/handbook.png)](http://travis-ci.org/cryptoparty/handbook)
+
+The CryptoParty Handbook is continuously built on the Travis CI platform. Build status is updated by the icon above. Further build information can be found on [http://travis-ci.org/cryptoparty/handbook](http://travis-ci.org/cryptoparty/handbook).
 
 Peer Review Process
 -------------------
@@ -35,7 +65,7 @@ The CryptoParty Handbook content is licensed under the [Creative Commons Attribu
 
 All chapters © the contributors unless otherwise noted.
 
-<pre>
+```
 -----BEGIN RSA PRIVATE KEY-----
 ty8xLMIIEowIBAAKCAQEArmkP2lNe9A87PfX5Xg1EewDiCzGLkSOuKAbA3y2ZQ0C
 2BBeg2khGVLqBf0OSBuKDDwYmv6J1mjJbgP3cIPBclQkDd9XVGFfvhHsMVNKCgpv
@@ -75,4 +105,4 @@ AJ1BOAMF06ZK1/bJWZgWA0O0UAIfDIYMqmooaof7YgsxgLz+ZcUvFk33Snl+6qBy
 FNU9lUE/M+AEoAGtIV/rLzVI2G18ZduTfbK/kXxZatpamEgPAudc/HrwkkdkxJzD
 uG5nDM4U
 -----END RSA PRIVATE KEY-----
-</pre>
+```

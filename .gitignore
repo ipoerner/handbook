@@ -1,2 +1,6 @@
 src/build
+cryptoparty-handbook-html
 .project
+/dist
+/metadata.opf
+/cover.jpg

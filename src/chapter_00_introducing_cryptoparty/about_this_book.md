@@ -1,7 +1,7 @@
 About This Book
 ===============
 
-The CryptoParty Handbook was born from a suggestion by Marta Peirano ([http://petitemedia.es](http://petitemedia.es)) and Adam Hyde ([http://booksprints.net](http://booksprints.net)) after the first Berlin CryptoParty, held on the 29th of August, 2012. Julian Oliver ([http://julianoliver.com](http://julianoliver.com)) and Danja Vasiliev ([http://k0a1a.net](http://k0a1a.net)), co-organisers of the Berlin CryptoParty along with Marta were very enthusiastic about the idea, seeing a need for a practical working book with a low entry-barrier to use in subsequent parties. Asher Wolf, originator of the Crypto Party movement, was then invited to run along and the project was born.
+The CryptoParty Handbook was born from a suggestion by Marta Peirano ([http://petitemedia.es](http://petitemedia.es)) and Adam Hyde ([http://booksprints.net](http://booksprints.net)) after the first Berlin CryptoParty, held on the 29th of August, 2012. Julian Oliver ([http://julianoliver.com](http://julianoliver.com)) and Danja Vasiliev ([http://k0a1a.net](http://k0a1a.net)), co-organisers of the Berlin CryptoParty along with Marta were very enthusiastic about the idea, seeing a need for a practical working book with a low entry-barrier to use in subsequent parties. Asher Wolf, originator of the CryptoParty movement, was then invited to run along and the project was born.
 
 This book was written in the first 3 days of October 2012 at Studio Weise7, Berlin, surrounded by fine food and a small ocean of coffee. Approximately 20 people were involved in its creation, some more than others, some local and some far.
 
@@ -12,8 +12,20 @@ The open source, web-based (HTML5 and CSS) writing platform BookType ([http://bo
 Combined, this became the official CryptoParty Handbook by midnight October the 3rd, GMT+1.
 
 The Book Sprint was 3 days in length and the full list of onsite participants included:
-
-Adam Hyde (facilitator), Marta Peirano, Julian Oliver, Danja Vasiliev, Asher Wolf ([http://cryptoparty.org](http://cryptoparty.org)), Jan Gerber, Malte Dik, Brian Newbold, Brendan Howell ([http://wintermute.org](http://wintermute.org), AT, Carola Hesse, Chris Pinchen ([http://chokepointproject.net/](http://chokepointproject.net)). Cover art (illustrations to come) by Emile Denichaud ([http://about.me/denichaud](http://about.me/denichaud))
+ 
+ * Adam Hyde (facilitator)
+ * Marta Peirano
+ * Julian Oliver
+ * Danja Vasiliev
+ * Asher Wolf ([http://cryptoparty.org](http://cryptoparty.org))
+ * Jan Gerber
+ * Malte Dik
+ * Brian Newbold
+ * Brendan Howell ([http://wintermute.org](http://wintermute.org)
+ * AT
+ * Carola Hesse
+ * Chris Pinchen ([http://chokepointproject.net/](http://chokepointproject.net)). 
+ * Cover art by Emile Denichaud ([http://about.me/denichaud](http://about.me/denichaud))
 
 This version of the handbook has since moved to github to collaboratively edit it. Find it at [https://github.com/cryptoparty/handbook](https://github.com/cryptoparty/handbook).
 If you see areas that need improvement or simply come across a typo, create a github account and start editing, commenting or creating issues. For help using git and github, see [https://help.github.com/](https://help.github.com/).
@@ -46,6 +58,16 @@ Assisted by:
  * 'Story89'
  * Travis Tueffel
 
+Github migration, packaging and maintenance by:
+
+ * Yuval Adam
+ * Samuel Carlisle
+ * Daniel Kinsman
+ * pettter
+ * Jens Kubieziel
+ * Uwe Lippmann
+ * Kai Engert
+
 Cover Image by Emile Denichaud.
 
 Other material included: 
@@ -58,6 +80,6 @@ The manuals used in the second half of this book borrow from 2 books sprinted by
 
  * "Basic Internet Security" 2011 Adam Hyde (Facilitator), Jan Gerber, Dan Hassan, Erik Stein, Sacha van Geffen, Mart van Santen, Lonneke van der Velden, Emile den Tex and Douwe Schmidt
 
-The CryptoPart Handbook content is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/).
+All content in the CryptoParty Handbook is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/).
 
 All chapters © the contributors unless otherwise noted below.
